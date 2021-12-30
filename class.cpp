@@ -8,16 +8,25 @@ class workFlow {
 
     public : 
              string name;
-             int files;
+             string files;
 
-    workFlow (string Name,int Files){
-        name = Name;
-        files = Files;
+  workFlow (string x,string y){ 
+        name = x;
+        files = y;
     }
+    
+    
+    
+    void getInfo () {
+    	cout << "Testtttttt";
+	}
 };
-    int main() {
-        workFlow info('Jude', 100);
-        return 0;
+ 
+ int main() {
+    	
+    	workFlow info("BMW", "X5");
+		info.getInfo();
+    return 0;
     }
-
+ 
 

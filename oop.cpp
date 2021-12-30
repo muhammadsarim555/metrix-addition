@@ -11,8 +11,8 @@ class workFlow {
              string files;
 
   
-  	private : 
-  			  string t = 'test';
+//  	private : 
+//  			  string t = 'test';
   	
   	
     workFlow (string x,string y){ 
