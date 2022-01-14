@@ -1,0 +1,13 @@
+
+let fN = 0;
+let  lN = 1;
+let add = 0;
+
+
+for(let i =1; i < 9; i++){
+  add = fN + lN;
+  fN = lN;
+  lN = add;
+
+  console.log(add)
+}
